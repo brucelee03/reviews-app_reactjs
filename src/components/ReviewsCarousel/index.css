@@ -1,0 +1,105 @@
+.review-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  font-family: 'Roboto';
+}
+@media (max-width: 576px) {
+  .heading {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .review-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    text-align: center;
+    width: 90%;
+    height: 380px;
+  }
+  .review-card {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button {
+    background-color: transparent;
+    border-width: 0;
+    height: 28px;
+    padding: 7px;
+    align-self: center;
+  }
+  .arrow {
+    width: 24px;
+  }
+  .profile-img {
+    width: 109px;
+  }
+  .username {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .company-name {
+    color: #171f46;
+    font-size: 12px;
+  }
+  .review {
+    color: #171f46;
+    font-size: 12px;
+  }
+}
+@media (min-width: 767px) {
+  .heading {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .review-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 80%;
+    height: 550px;
+  }
+  .review-card {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button {
+    background-color: transparent;
+    border-width: 0;
+    height: 50px;
+    padding: 10px;
+    align-self: center;
+  }
+  .arrow {
+    width: 36px;
+  }
+  .profile-img {
+    width: 189px;
+  }
+  .username {
+    color: #ffffff;
+    font-size: 28px;
+  }
+  .company-name {
+    color: #171f46;
+    font-size: 22px;
+  }
+  .review {
+    color: #171f46;
+    font-size: 22px;
+  }
+}
